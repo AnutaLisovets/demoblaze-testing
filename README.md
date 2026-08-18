@@ -1,28 +1,46 @@
-# 🛒 DemoBlaze Manual Testing
+# DemoBlaze Testing
 
 ## Project
+Manual and API testing of the DemoBlaze web application.
 
-Manual testing of the **DemoBlaze** web application.
+## Testing performed
+- Functional testing
+- UI testing
+- Validation testing
+- Negative testing
+- Boundary testing
+- API testing
 
-## Testing Scope
+## Repository structure
 
-- User registration
-- User login
-- Product catalog
-- Product page
-- Shopping cart
-- Place Order
-- Contact form
-- UI responsiveness
-- Input validation
+```text
+DemoBlaze_Test_Documentation.xlsx
+API/
+ └── DemoBlaze_API.json
+Screenshots/
+```
 
-## Repository Contents
+## API Testing
 
-- `DemoBlaze_Test.xlsx` — Checklist and Bug Reports
-- `Screenshots/` — Bug evidence
+### Requests
+- GET Products
+- POST Sign Up
+- POST Sign Up - Existing User
+- POST Login
+- POST Login - Wrong Password
+
+### Automated Tests
+- Status code validation
+- Response time validation
+- Content-Type validation
+- Response body validation
+- Auth token validation
+- Error message validation
 
 ## Tools
-
+- Postman
+- REST API
+- JSON
 - Google Sheets
 - Microsoft Excel
 - GitHub
